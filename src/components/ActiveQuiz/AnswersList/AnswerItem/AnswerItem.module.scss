@@ -1,0 +1,19 @@
+.AnswerItem {
+    list-style: none;
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    &:hover {
+        background: #202429;
+        transition: all .2s;
+    }
+    &.success {
+        background: green;
+    }
+    &.error {
+        background: red;
+    }
+}
+
