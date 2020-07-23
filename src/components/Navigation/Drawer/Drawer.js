@@ -15,7 +15,7 @@ class Drawer extends Component {
                 <li
                     key={index}
                 >
-                    <a href="#" onClick={this.props.isOpen}>Link {link}</a>
+                    <a href="http://localhost:3000/">Link {link}</a>
                 </li>
                 )
         })

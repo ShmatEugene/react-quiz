@@ -14,8 +14,6 @@ class Layout extends Component {
         this.setState({
             isMenuOpen: !this.state.isMenuOpen
         })
-        console.log(this.state.isMenuOpen);
-        
     }
 
     render() {
