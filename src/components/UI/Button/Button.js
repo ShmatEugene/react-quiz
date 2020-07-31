@@ -9,7 +9,7 @@ const Button = props => {
     ]
 
     return(
-        <div>
+        <div className={classes.displayInlineBlock}>
             <button
                 onClick={props.onClick}
                 className={cls.join(' ')}
