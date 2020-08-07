@@ -10,7 +10,7 @@ const FinishedQuiz = props => {
             total++
         }
         return total
-    })
+    }, 0)
 
     return(
         <>
